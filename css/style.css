@@ -1,0 +1,217 @@
+@import url("reset.css");
+@import url("slider.css");
+
+body{
+	height: 100%;
+	font: 13px/1.4 Georgia, Century Schoolbook L, serif;
+	color: #979797;
+	background-color: #ffffff;	
+	text-align: left;
+	
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0  auto;
+}
+
+h1{
+	font-size: 26px;
+	color: #505050;
+	line-height: 1.5;
+}
+h2{
+	font-size: 12px;
+	color: #666;
+}
+h3{
+	font-size: 18px;
+	color: #666;
+}
+h4{
+	font-size: 16px;
+	color: #505050;
+}
+p{
+	margin: 8px 0;
+}
+
+section a{
+		color: #e2494b;
+	}
+
+/* header*/
+header{	
+	display: block;
+	height: 55px;
+	padding: 40px  0;	
+	border-bottom: 2px groove #e2e2e2;
+}
+
+.logo{
+	width: 190px;	
+	float: left;	
+}
+	
+
+nav {
+	background: url(../images/nav_bg.png) no-repeat;
+	padding: 21px 20px;
+	float: right;
+	width: 615px;
+	line-height: 13px;
+	white-space: nowrap;
+}
+	nav a{
+		color: #fff;
+		margin-right: 45px;
+	}
+	nav a:last-child{
+		margin-right: 0px;
+	}
+
+a:hover{
+	color:#ee9395;
+}
+
+
+/* title rect*/
+
+.title{	
+	position: relative;
+	top: 15px;
+	margin: 0 auto;
+	background-color: #e2494b;
+	width: 175px;
+	padding: 6px 0;
+	text-align: center;
+	line-height: 18px;
+	border-radius: 5px;
+}
+	.title  h3{
+		color: #fff;
+	}
+
+/* section*/
+.shout {	
+	padding: 40px 0; 
+	text-align:center
+}
+	
+
+.shout q{
+	font-style: italic;
+	font-size: 22px;
+	color: #333333;
+	quotes: "\201c" "\201e";
+}
+
+
+/*article  section*/
+article section{
+	border-top: 1px groove #e2e2e2;	
+	padding: 40px 0; 
+	display: flex;
+	overflow: auto;
+	flex-flow: nowrap;
+	justify-content: space-between;
+	align-items: strech;
+}
+
+.item{
+	margin-top: 10px;
+	padding-right: 20px;
+}
+	.item:last-child{
+		padding-right: 0;
+	}
+	
+	.item  h3{
+		color: #666;
+		padding: 5px 0px 10px 50px;
+	}
+	
+	.pyramid{
+		background: url(../images/pyramid.png) no-repeat left top;
+	}
+	.cube{
+		background: url(../images/cube.png) no-repeat left top;
+	}
+	.pentagon{
+		background: url(../images/pentagon.png) no-repeat left top;
+	}	
+
+footer{
+	background-color: #e2e2e2;
+}
+
+	.footer{
+		border-bottom: 2px groove #e2e2e2;	
+		padding: 40px 0; 
+		display: flex;
+		flex-flow: nowrap;
+		justify-content: space-between;
+		align-items: strech;
+		overflow: auto;
+	}
+
+	.blog{
+		width: 48%;
+		padding-right: 20px;
+	}
+		.blog_item{
+			display: block;
+			padding: 10px 0;
+		}
+		.blog_item .border{
+			display: block;
+			float: left;
+			margin-right: 10px;
+			border: 1px solid #828181;
+		}
+		.blog_item img{
+			display: block;
+			border: 3px solid #fff;
+		}
+		.blog_item text{
+			display: block;
+			float:right;
+		}
+
+	.details{
+		width: 24%;
+		padding-right: 20px;
+	}
+	
+	.contact{
+		width: 24%;
+	}		
+		.feedback input, textarea{
+			border: 1px solid #e2e2e2;
+			border-radius: 5px;
+			padding: 5px;
+			margin-top: 8px;
+			font: 14px Georgia, Century Schoolbook L, serif;;
+			line-height:1;
+			width: 98%;
+			box-sizing: border-box;
+		}
+		
+		.feedback textarea{
+			line-height: 1.4;
+		}
+		
+		.feedback .btn{	
+			background-color: #e2494b;
+			width: 40%;
+			padding: 6px 0;
+			line-height: 18px;
+			text-align: center;
+			font: 14px Georgia, Century Schoolbook L, serif;
+			color: #fff;
+			
+		}
+		
+	.copyright{
+		padding: 20px 0; 
+	}
