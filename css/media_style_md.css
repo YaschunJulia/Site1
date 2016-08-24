@@ -1,0 +1,66 @@
+.wrapper{
+    width: 960px;
+    margin: 0  auto;
+}
+
+
+.logo{
+	width: 190px;
+	float: left;
+}
+
+.open-menu{
+    display: none;
+}
+
+.menu {
+    display: block;
+    float: right;
+    padding: 20px 20px 20px 30px;
+    width: 615px;
+}
+    .menu li{
+        float: left;
+        margin-right: 50px;
+    }
+    .menu li:last-child{
+        margin-right: 0;
+    }
+
+
+article section{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+    .item{
+        margin-top: 10px;
+        padding-right: 20px;
+    }
+    .item:last-child{
+        padding-right: 0;
+    }
+
+.footer{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.blog{
+    width: 48%;
+    padding-right: 20px;
+}
+
+.details{
+    width: 24%;
+    padding-right: 20px;
+}
+
+.contact{
+    width: 24%;
+}
+
+

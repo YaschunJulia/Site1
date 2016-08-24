@@ -1,0 +1,55 @@
+{
+    "services" : 
+	  [
+		{
+          "class": "item pyramid",
+          "title": "Pyramid",
+          "info": "Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt."
+        }, {
+          "class": "item cube",
+          "title": "Cube",
+          "info": "Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt."
+        }, {
+          "class": "item pentagon",
+          "title": "Pentagon",
+          "info": "Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt."
+        }
+	  ],
+    "players" :
+      [
+        {
+          "photo": "images/Julia.jpg",
+          "name": "Julia",
+          "info": "Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla."
+        }, {
+          "photo": "images/Den.jpg",
+          "name": "Den",
+          "info": "Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla."
+        }, {
+          "photo": "images/Stas.jpg",
+          "name": "Stas",
+          "info": "Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla."
+        }, {
+          "photo": "images/Artem.jpg",
+          "name": "Artem",
+          "info": "Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla."
+        }, {
+          "photo": "images/Vasiliy.jpg",
+          "name": "Vasiliy",
+          "info": "Justo convallis augue estas aenean elit intesque sed facilispede estibulum nulla."
+        }
+      ],
+	"works" : 
+	  [
+		{
+          "screen": "images/work1.jpg",
+		  "href": "#"
+        }, {
+          "screen": "images/work2.jpg",
+		  "href": "#"
+        }, {
+          "screen": "images/work3.jpg",
+          "href": "#"
+        }
+	  ]
+}

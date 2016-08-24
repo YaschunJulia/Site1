@@ -1,0 +1,89 @@
+.wrapper{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: block;
+    float: left;
+    text-align: left;
+    margin: 0 10px;
+    width: 55%;
+}
+
+.open-menu{
+    position: relative;
+    float: right;
+    text-align: center;
+}
+    .line-menu{
+        background-color: #e2494b;
+        border-radius: 5px;
+        text-align: center;
+        padding: 15px;
+        position: relative;
+        display: block;
+        top: 10px;
+        right: 10px;
+    }
+        .line{
+            display: block;
+            background: linear-gradient(to top, #fff 0%, #fff 20%, transparent 21%, transparent 39%, #fff 40%, #fff 60%, transparent 61%, transparent 79%, #fff 80%, #fff 100%);
+            width: 15px;
+            height: 15px;
+        }
+    .open-menu ul{
+        background-color: #e2494b;
+        border-radius: 5px;
+        line-height: 13px;
+        white-space: nowrap;
+        overflow: hidden;
+        z-index: 50;
+        position: absolute;
+        /*display: none;*/
+        padding: 10px 15px;
+        top: 48px;
+        right: 10px;
+    }
+        .open-menu li{
+            margin-bottom: 10px;
+        }
+        .open-menu li:last-child{
+            margin-bottom: 0;
+        }
+
+
+ .menu{
+     display:none;
+ }
+
+article section{
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+    .item{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .works img{
+        margin-top: 15px;
+    }
+
+.footer{
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    align-items: stretch;
+}
+
+
+.blog, .details, .contact{
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.contact{
+    width: 95%;
+}
